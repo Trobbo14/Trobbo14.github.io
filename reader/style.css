@@ -5,7 +5,7 @@ body {
 
 @font-face {
     font-family: "simulator";
-    src: url("BBB_Simulator_Black.woff");
+    src: url("BBB_Simulator_Black.woff") format("woff");
 }
 
 h1 {
