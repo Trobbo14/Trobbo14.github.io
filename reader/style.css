@@ -1,14 +1,23 @@
 body {
-   background-color: aquamarine;
-   font-family:Arial, Helvetica, sans-serif ;
+background-color:#dfd4be;
+color:#2D4581 ;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-@font-face {
-    font-family: "simulator";
-    src: url("BBB_Simulator_Black.woff") format("woff");
+div.title {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-h1 {
-    font-family:"simulator";
-    font-size: 200px;
+div.quote {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+div.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    width: 400px;
 }
