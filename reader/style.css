@@ -32,7 +32,7 @@ div.quote {
 
 div.text1 {
     font-size: 21px;
-    width: 400px;
+    width:300px;
 }
 
 div.text2 {
@@ -41,14 +41,14 @@ div.text2 {
 }
 
 div.text3 {
-    width: 320px;
+    width: 280px;
     margin-left: 150px;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
 div.text4 {
-    width: 320px;
+    width: 280px;
     margin-left: 150px;
 }
 
@@ -61,8 +61,8 @@ div.title2 {
 }
 
 div.text5 {
-    width: 270px;
-    margin-left: 220px;
+    width: 260px;
+    margin-left: 1600px;
     margin-bottom: 40px;
 }
 
@@ -95,7 +95,7 @@ div.text9 {
 
 div.text10 {
     font-size: 15px;
-    width: 330px;
-    margin-left: 150px;
+    width: 280px;
+    margin-left: 120px;
     margin-bottom: 40px;
 }
