@@ -168,12 +168,3 @@ body{
     width: 100%;
     margin-top: 10px;
   }
-
-
-  div.trigger {
-    border:2px solid red;
-    display:inline-block;
-    padding:5px;
-    font-size:36px;
-    cursor:pointer;
-  }
