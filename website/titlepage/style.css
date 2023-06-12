@@ -1,0 +1,30 @@
+body {
+  background-image: url(imagesfortitlepage/applebackground.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+@font-face {
+  font-family: 'sharetechmono';
+  src: url('fonts/ShareTechMono-Regular.ttf') format('truetype');
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.title {
+  font-size: 100px;
+  font-family: 'sharetechmono', sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+
+.title:hover {
+  color: black;
+}

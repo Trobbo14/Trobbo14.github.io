@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas's Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+      window.onload = function () {
+        //add constraints object
+        var constraints = { audio: true, video: true };
+      
+        //call getUserMedia, then the magic
+        navigator.mediaDevices
+          .getUserMedia(constraints)
+          .then(function (mediaStream) {
+            var video = document.querySelector("video");
+            video.srcObject = mediaStream;
+            video.play();
+          })
+          .catch(function (err) {});
+      };
+      </script>
+
+</head>
+
+<body>
+<div class="header1">
+  <img src="images/header-01.png"></div>
+  <div class="gap"></div>
+
+<div class="title">
+  <a href="index.html"></a>
+  Multitasking with Multimedia
+</div>
+<div class="gap1"></div>
+
+<div class="content-box"></div>
+    <div class="bluebox">
+      <img class="airpod-gif" src="images/airpods.gif">
+      </div>
+    </div>
+    <div class="greenbox">
+      <img class="default-image" src="images/progressbar.png">
+      <img class="hover-image" src="images/oldprogressbar.gif">
+    </div>
+    <div class="gap"></div>
+    <div class="greybox">
+      <img src="images/folders2.png">
+    </div>
+    <div class="gap"></div>
+    <div class="orangebox">
+      <iframe src="https://www.youtube.com/embed/watch?v=W6CBb3yX9Zs&ab_channel=AsapSCIENCE" frameborder="0"></iframe>
+    </div>
+    <div class="gap"></div>
+    <div class="pinkbox" onmouseover="playAudio()" onmouseout="pauseAudio()">
+      <img class="normal-image" src="images/metaltexture.jpg">
+      <img class="hovering-image" src="images/metal-03.png">
+    </div>
+      
+    <audio id="audio">
+      <source src="images/Scraping Metal.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  
+    <script>
+      var audio = document.getElementById('audio');
+  
+      function playAudio() {
+        audio.play();
+      }
+  
+      function pauseAudio() {
+        audio.pause();
+      }
+    </script>
+
+<div class="gap"></div>
+    <div class="yellowbox">
+      <img src="images/apps.png">
+    </div>
+    <div class="gap"></div>
+    <div class="purplebox">
+      <video class="webcam"></video>
+    </div>
+    <div class="brownbox"></div>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
+
+
+    
+
+
+<!-- my stuff -->
+    <!-- <div class="header1">
+        content
+    </div>
+
+    <div class="header2">
+        content
+    </div> -->
+<!-- my stuff -->
+
+<!-- uriah's example vvvv -->
+    <!-- <div class="container">
+        <div class="item one">
+          1
+        </div>
+        <div class="item two">
+          2
+        </div>
+        <div class="item">
+          3
+        </div>
+        <div class="item">
+          4
+        </div>
+        <div class="item">
+          5
+        </div>
+        <div class="item">
+          6
+        </div>
+        <div class="item">
+          7
+        </div>
+        <div class="item">
+          8
+        </div>
+      </div> -->
+<!-- uriah's example ^^^^ -->
+
+<!-- initial stuff -->
+    <!-- <div class="inlineblock">
+        So inline-block is good for getting blocks to be in a line, or next to each.
+    </div>
+      
+    <div class="inlineblock">
+        I'm a 500px div next to another inline-block div.
+    </div>
+
+    <div class="block400">400px</div>
+    <div class="block400">400px</div>
+    <div class="block200">200px</div>
+    <div class="block200">200px</div>
+    <div class="block200">200px</div>
+    <div class="block200">200px</div> -->
+
+    <!-- <img src="okcancelpopup.jpg">
+
+    <div class="box">
+        content
+    </div>
+
+    <div class="box">
+        content
+    </div>
+
+    <div class="box">
+        content
+    </div> -->
+<!--initial stuff  -->
+
